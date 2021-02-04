@@ -25,4 +25,7 @@
     .allSkills{
         flex-wrap: wrap;
     }
+    .heading{
+        font-size: xx-large;
+    }
 }

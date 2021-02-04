@@ -67,5 +67,11 @@
      .exp{
          width: 100%
      }
+     .headIn{
+        font-size: 1.4em;
+     }
+     .heading{
+        font-size: xx-large;
+    }
      
   }

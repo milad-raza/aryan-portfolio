@@ -11,3 +11,71 @@
     font-size: xxx-large;
     font-family: LeagueSpartan;
 }
+.extraCurricularSection{
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.extra{
+    color: #ffffff;
+    text-align: center;
+}
+.tittleDes{
+    width: 70%;
+    color: #b8b8c7;
+    font-family: OpenSans;
+    cursor: default;
+    user-select: none;
+    font-size: 1.30em;
+    text-align: justify;
+}
+.allhead{
+    color: #b8b8c7;
+    font-family: OpenSans;
+    cursor: default;
+    user-select: none;
+    font-size: 1.30em;
+}
+.head{
+    color: #037fff;
+    font-size: xx-large;
+    font-family: OpenSans;
+    cursor: default;
+    user-select: none;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.boxIN{
+    width: 50%;
+}
+.logo{
+    width: 410px;
+    height: 260px;
+    object-fit: cover;
+}
+@media only screen and (max-width:700px){
+    .tittleDes{
+        width: 90%;
+        font-size: 1.1em;
+    }
+    .box{
+        width: 90%;
+        flex-direction: column-reverse;
+        justify-content: unset;
+    }
+    .boxIN{
+        width: 100%
+    }
+    .allhead{
+        font-size: 1.1em;
+    }
+    .heading{
+        font-size: xx-large;
+    }
+}
