@@ -7,7 +7,8 @@ import Home from './components/Home'
 import About from './components/About';
 import Resume from './components/Resume';
 import Skills from './components/Skills';
-// import Portfolio from './components/Portfolio';
+import Projects from './components/Projects';
+import ExtraCurricular from './components/ExtraCurricular'
 // import Contact from './components/Contact';
 // import CopyRight from './components/CopyRight';
 
@@ -17,17 +18,12 @@ function App() {
     <div id = "App">
       <Navbar pageWrapId={"page-wrap"} outerContainerId={"App"}/>
       <div id="page-wrap">
-        {/* <ScrollToTop />
-        <Tittle />
-        <About />
-        <Services />
-        <Portfolio />
-        <Contact />
-        <CopyRight /> */}
         <Home />
         <About />
         <Skills />
         <Resume />
+        <Projects />
+        <ExtraCurricular />
       </div>
       </div>
   );

@@ -1,15 +1,13 @@
 import React from "react";
 import styles from "./About.module.css";
 import me from "../assets/images/me.jpeg";
-// import photoshop from "../assets/icons/photoshop.png";
 
 export default function About() {
   return (
     <div className={styles.about} id="about">
       <h1 className={styles.heading}>About Me</h1>
       <div className={styles.aboutSection}>
-        <img className={styles.me} src={me} />
-        {/* <img className={styles.me} src={photoshop} /> */}
+        <img className={styles.me} src={me} alt="My Pic" />
         <div className={styles.aboutInfo}>
           <h2 className={styles.tittle}>
             <span className={styles.hi}>I am&nbsp;</span>Harsimran Preet Singh

@@ -12,5 +12,60 @@
     font-family: LeagueSpartan;
 }
 .resumeSection{
-    color: #ffffff
+    color: #ffffff;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 4%;
 }
+.head{
+    display: flex;
+    align-items: center;
+}
+.headIn{
+    font-size: x-large;
+    font-family: OpenSans;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+}
+.date{
+    font-size: 1em;
+    color: #b8b8c7;
+    font-family: OpenSans;
+    width: 50%;
+}
+.exp{
+    font-family: OpenSans;
+    width: 100%;
+}
+.expHead{
+    font-size: 1.6em;
+    color: #037fff;
+    margin-bottom: 10px;
+}
+.company{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.desc{
+    font-size: 1em;
+    color: #b8b8c7;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width:700px){
+     .card{
+         justify-content: space-around;
+         flex-direction: column;
+     }
+     .date{
+         width: 100%;
+         margin-bottom: 10px;
+     }
+     .exp{
+         width: 100%
+     }
+     
+  }

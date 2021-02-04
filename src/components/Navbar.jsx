@@ -42,9 +42,12 @@ export default function Navbar() {
       <Link className={styles.menuItem} to="resume" smooth={true} duration={1000} onClick={()=> closeit()} >
         Resume
       </Link><hr />
-      <Link className={styles.menuItem} to="portfolio" smooth={true} duration={1000} onClick={()=> closeit()} >
-        Portfolio
+      <Link className={styles.menuItem} to="projects" smooth={true} duration={1000} onClick={()=> closeit()} >
+        Projects
       </Link><hr />
+      {/* <Link className={styles.menuItem} to="extraCurricular" smooth={true} duration={1000} onClick={()=> closeit()} >
+        Extra Curicular
+      </Link><hr /> */}
        <Link className={styles.menuItem} to="contact" smooth={true} duration={1000} onClick={()=> closeit()} >
         Contact Me
       </Link><hr />

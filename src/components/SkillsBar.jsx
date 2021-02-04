@@ -30,8 +30,8 @@ export default function SkillsBar(props) {
 
   return (
     <div className={classes.root}>
-      <img src={props.image} width="36px" height="36px" />
-      <h2>{props.name}</h2>
+      <img src={props.image} width="36px" height="36px" alt={props.name}/>
+      <h2 style={{fontFamily: "OpenSans"}}>{props.name}</h2>
       <div
         style={{
           display: "flex",

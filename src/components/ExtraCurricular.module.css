@@ -1,0 +1,13 @@
+.extraCurricular{
+    background-color: #110022;
+}
+.heading{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+    font-family: LeagueSpartan;
+}
