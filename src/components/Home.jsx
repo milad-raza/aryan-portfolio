@@ -4,7 +4,7 @@ import React,{useEffect} from 'react';
 import Particles from 'react-particles-js';
 import { RiArrowDownSLine } from 'react-icons/ri';
 import { Link } from "react-scroll";
-import './Home.css';
+import styles from './Home.module.css';
 
 export default function Home() {
 
@@ -16,19 +16,19 @@ export default function Home() {
     // }, []);
 
     return (
-		<div className="tittleContainer" id="home" data-aos="fade">
-			<h1 className="tittle">
-				<span className = "hi">
+		<div className={styles.tittleContainer} id="home" data-aos="fade">
+			<h1 className={styles.tittle}>
+				<span className={styles.hi}>
 					Hi, I am&nbsp;
 				</span>
 				Harsimran Preet Singh
 			</h1>
-			<p className="tittleDes">Inquisitive, energetic computer science student skilled in leadership, with a strong foundation in math and logic. Seeking to leverage solid skills in collaboration and development as a programmer.</p>
-			<Link to = "contact" smooth={true} duration={1000}  >
-				<span className="tittleButton">GET STARTED</span>
+			<p className={styles.tittleDes}>Inquisitive, energetic computer science student skilled in leadership, with a strong foundation in math and logic. Seeking to leverage solid skills in collaboration and development as a programmer.</p>
+			<Link to="contact" smooth={true} duration={1000}  >
+				<span className={styles.tittleButton}>GET STARTED</span>
 			</Link>
 			<Link to = "about" smooth={true} duration={1000}>
-				<RiArrowDownSLine className="scrollDown" size="60px" />
+				<RiArrowDownSLine className={styles.scrollDown} size="60px" />
 			</Link>
 			<Particles
 				style={{ backgroundColor: "#000012" }}

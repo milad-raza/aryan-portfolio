@@ -1,0 +1,27 @@
+.skills{
+    background-color: #110022;
+}
+.heading{
+    padding-top: 4%;
+    padding-bottom: 2%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+    font-family: LeagueSpartan;
+}
+.skillsSection{
+    color: #ffffff;
+}
+.allSkills{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width:700px){
+    
+    .allSkills{
+        flex-wrap: wrap;
+    }
+}
