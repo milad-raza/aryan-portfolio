@@ -32,6 +32,10 @@ export default function ExtraCurricular() {
               frameborder="0"
               src="https://counts.live/embeds/youtube-subscriber-count/UCqCfUJlx68rrxTZ4q95SNJQ/small"
             />
+            <div className={styles.iframe} style={{backgroundColor: "#faeefe", display: "flex", alignItems: "center", justifyContent: "center",flexDirection: "column", }}>
+              <h5 style={{fontFamily: "TitilliumWeb", fontWeight: "bold"}}>View Count : 1,700,000+ Views</h5>
+              <h5 style={{fontFamily: "TitilliumWeb", fontWeight: "bold"}}>Watchtime : 4,000,000+ Minutes</h5>
+            </div>
           </div>
 
           <div>

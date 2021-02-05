@@ -7,7 +7,7 @@ import game from '../assets/images/game.gif'
 export default function Projects() {
   return (
     <div className={styles.projects} id="projects">
-      <h1 className={styles.heading}>Project's</h1>
+      <h1 className={styles.heading}>Projects</h1>
       <div className={styles.allp}>
 
       <ProjectCard

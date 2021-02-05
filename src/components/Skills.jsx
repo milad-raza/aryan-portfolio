@@ -13,7 +13,7 @@ import finalcut from "../assets/icons/finalcut.png";
 export default function Skills() {
   return (
     <div className={styles.skills} id="skills">
-      <h1 className={styles.heading}>Skill's</h1>
+      <h1 className={styles.heading}>Skills</h1>
       <div className={styles.allSkills}>
         <div>
           <div className={styles.skillsSection}>

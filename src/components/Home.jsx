@@ -30,11 +30,12 @@ export default function Home() {
       </Link>
       <div>
         <a
+         rel="noreferrer"
           href="https://drive.google.com/file/d/1jHNrzm47IbYCULjrR7GzgbsEIzULPwG9/view?usp=sharing"
           target="_blank"
           className={styles.resumeButton}
         >
-          Resume
+          RESUME
         </a>
       </div>
       <Link to="about" smooth={true} duration={1000}>
