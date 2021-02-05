@@ -136,6 +136,40 @@
     }
 }
 
+@media only screen and (min-width:768px){
+    .hi{
+        display: block;
+    }
+    .tittle{
+        top: 25%;
+        font-size: 50px;
+    }
+    .tittleDes{
+        top: 40%;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: x-large;
+    }
+    .tittleButton{
+        top:54%;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 12%;
+    }
+    .resumeButton{
+        top: 64%;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 12%;
+    }
+    .scrollDown{
+        top: 86%;
+    }
+}
+
 @media only screen and (max-width:320px){
     .tittle{
         top: 10%;

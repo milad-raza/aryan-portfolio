@@ -100,3 +100,38 @@
     font-size: xx-large;
 }
   }
+
+  @media only screen and (min-width:768px){
+    .aboutInfo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   .allData{
+       width: 400px;
+       font-size: 1.2em;
+   }
+   .data{
+       width: 150px;
+       font-size: 1.2em;
+   }
+   .dots{
+       width:30px;
+       font-size: 1.2em;
+       margin-left: 2px;
+       margin-right: 0px;
+   }
+   .tittle{
+       font-size: xxx-large;
+   }
+   .tittleDes{
+       font-size: 1.2em;
+       width: 100%;
+       margin-left: 80px;
+   }
+   .heading{
+    font-size: xxx-large;
+}
+  }

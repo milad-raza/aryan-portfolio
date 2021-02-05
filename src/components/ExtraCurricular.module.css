@@ -89,3 +89,31 @@
         font-size: xx-large;
     }
 }
+
+@media only screen and (min-width:768px){
+    .tittleDes{
+        width: 90%;
+        font-size: 1.3em;
+    }
+    .box{
+        width: 90%;
+        flex-direction: column-reverse;
+        justify-content: unset;
+    }
+    .boxIN{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .iframe{
+        margin: 0px
+    }
+    .allhead{
+        font-size: 1.3em;
+    }
+    .heading{
+        font-size: xxx-large;
+    }
+}
