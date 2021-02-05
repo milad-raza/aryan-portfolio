@@ -1,5 +1,12 @@
 .contact{
-    background-color: #110022;
+    background-color: #000012;
+}
+.me{
+    width: 260px;
+    height: 260px;
+    object-fit: contain;
+    padding-bottom: 20px;
+
 }
 .heading{
     padding-top: 4%;
@@ -12,9 +19,87 @@
     font-family: LeagueSpartan;
 }
 .contactSection{
-    padding-bottom: 4%;
+    padding-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.icons>a{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #b8b8c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    color: #b8b8c7;
+    margin: 10px;
+}
+.icons>a:first-child:hover{
+    background-color: white;
+    color: #0000ff !important
+}
+.icons>a:nth-of-type(2):hover{
+    background-color: white;
+    color: #f09411 !important;
+}
+.icons>a:nth-of-type(3):hover{
+    background-color: white;
+    color: #1DA1F2 !important
+}
+.icons>a:nth-of-type(4):hover{
+    background-color: white;
+    color: #eeeC00 !important
+}
+.icons>a:nth-of-type(5):hover{
+    background-color: white;
+    color: #ff0000 !important
+}
+.icons>a:nth-of-type(6):hover{
+    background-color: white;
+    color: #000000 !important;
+}
+.icons>a:nth-of-type(7):hover{
+    background-color: white;
+    color: #0e76a8 !important
+}
+
+.emailphoneLink{
+    text-decoration: none;
+    color:#b8b8c7;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.emailphoneLink:hover{
+    color:#6b9cd5;
+}
+.emailphoneHead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+@media only screen and (max-width:700px){
+    .heading{
+        font-size: xx-large;
+    }
+    .icons{
+        width: 100%;
+    }
+    .icons>a{
+        width: 43px;
+        height: 43px;
+        margin: 3px
+    }
 }

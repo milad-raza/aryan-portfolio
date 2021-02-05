@@ -8,11 +8,11 @@
 .icons{
     display: flex !important;
     justify-content: space-around !important;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .icons>a{
-    width: 30px;
-    height: 30px;
+    width: 34px;
+    height: 34px;
     border: 2px solid #b8b8c7;
     display: flex;
     align-items: center;
@@ -46,4 +46,14 @@
 }
 .menuItem{
     cursor: pointer;
+}
+.menuItem:hover{
+    color: #ffffff !important
+}
+.hr{
+    background-color: #b8b8c7;
+    height: 0.3px;
+    border-radius: 100px;
+    margin-top: 10px;
+    width: 240px;
 }

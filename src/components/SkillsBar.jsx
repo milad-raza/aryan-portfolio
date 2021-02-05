@@ -1,6 +1,5 @@
 import React from "react";
 import { makeStyles, withStyles } from "@material-ui/core/styles";
-import CircularProgress from "@material-ui/core/CircularProgress";
 import LinearProgress from "@material-ui/core/LinearProgress";
 
 const BorderLinearProgress = withStyles((theme) => ({
@@ -40,7 +39,7 @@ export default function SkillsBar(props) {
           margin: 10,
         }}
       >
-        <h3 style={{ color: "#b8b8c7", width: 50 }}>{props.percent}%</h3>
+        <h4 style={{ color: "#b8b8c7", width: 65, fontSize: 20 }}>{props.percent}%</h4>
         <BorderLinearProgress
           variant="determinate"
           value={props.percent}

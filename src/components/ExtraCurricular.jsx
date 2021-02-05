@@ -3,7 +3,7 @@ import styles from "./ExtraCurricular.module.css";
 import { CgSmartphoneChip } from "react-icons/cg";
 import { FiYoutube } from "react-icons/fi";
 import { SiGooglescholar } from "react-icons/si";
-import pic from '../assets/images/pic.jpg'
+import pic from '../assets/images/pic.png'
 
 export default function ExtraCurricular() {
   return (
@@ -27,7 +27,8 @@ export default function ExtraCurricular() {
             <img src={pic} alt="Logo" className={styles.logo} />
             {/* <br /> */}
             <iframe
-              style={{ height: "80px", width: "300px", border: "none" }}
+            className={styles.iframe}
+              title="Subscribers"
               frameborder="0"
               src="https://counts.live/embeds/youtube-subscriber-count/UCqCfUJlx68rrxTZ4q95SNJQ/small"
             />

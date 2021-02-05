@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 import { FaFacebook } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
-import { FaWhatsapp } from 'react-icons/fa';
+// import { FaWhatsapp } from 'react-icons/fa';
 import {FaYoutube} from 'react-icons/fa';
 import {FaTwitter} from 'react-icons/fa'
 import { Link } from 'react-scroll';
@@ -29,28 +29,28 @@ export default function Navbar() {
       <div>
         <img src ={myPic} alt="MyPic" className={styles.myPic} />
       </div>
-      <hr />
+      <hr className={styles.hr}/>
       <Link className={styles.menuItem} to="home" smooth={true} duration={1000} onClick={()=> closeit()} >
         Home
-      </Link><hr />
+      </Link><hr className={styles.hr}/>
       <Link className={styles.menuItem} to="about" smooth={true} duration={1000} onClick={()=> closeit()} >
         About Me
-      </Link><hr />
+      </Link><hr className={styles.hr}/>
       <Link className={styles.menuItem} to="skills" smooth={true} duration={1000} onClick={()=> closeit()} >
         Skills
-      </Link><hr />
+      </Link><hr className={styles.hr}/>
       <Link className={styles.menuItem} to="resume" smooth={true} duration={1000} onClick={()=> closeit()} >
         Resume
-      </Link><hr />
+      </Link><hr className={styles.hr}/>
       <Link className={styles.menuItem} to="projects" smooth={true} duration={1000} onClick={()=> closeit()} >
         Projects
-      </Link><hr />
-      {/* <Link className={styles.menuItem} to="extraCurricular" smooth={true} duration={1000} onClick={()=> closeit()} >
+      </Link><hr className={styles.hr}/>
+      <Link className={styles.menuItem} to="extraCurricular" smooth={true} duration={1000} onClick={()=> closeit()} >
         Extra Curicular
-      </Link><hr /> */}
+      </Link><hr className={styles.hr}/>
        <Link className={styles.menuItem} to="contact" smooth={true} duration={1000} onClick={()=> closeit()} >
         Contact Me
-      </Link><hr />
+      </Link><hr className={styles.hr}/>
       <div className={styles.icons}>
         <a href="https://www.facebook.com/iaryansadyora/"
           rel="noreferrer" target="_blank" >

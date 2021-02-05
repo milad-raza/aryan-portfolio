@@ -7,7 +7,7 @@
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    top: 36%;
+    top: 32%;
     text-align: center;
     font-size: xxx-large;
     font-family: LeagueSpartan;
@@ -23,7 +23,7 @@
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
-    top: 46%;
+    top: 42%;
     text-align: center;
     font-size: x-large;
     font-family: TitilliumWeb;
@@ -40,7 +40,7 @@
     height: 50px;
     margin-left: 40%;
     margin-right: 40%;
-    top: 70%;
+    top: 66%;
     text-align: center;
     font-size: large;
     font-weight: bold;
@@ -55,6 +55,32 @@
     border: 2px solid #ffffff;
     background-color: #ffffff;
 }
+
+.resumeButton{
+    position : absolute;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid  #b8b8c7;
+    width: 20%;
+    height: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+    top: 76%;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+.resumeButton:hover{
+    color: #037fff;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+}
+
 .scrollDown{
     position : absolute;
     text-align: center;
@@ -81,17 +107,25 @@
         display: block;
     }
     .tittle{
-        top: 22%;
+        top: 19%;
         font-size: 42px;
     }
     .tittleDes{
-        top: 47%;
+        top: 42%;
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
         font-size: large;
     }
     .tittleButton{
+        top:64%;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 12%;
+    }
+    .resumeButton{
+        top: 73%;
         width: 50%;
         margin-left: 25%;
         margin-right: 25%;
@@ -108,9 +142,12 @@
         font-size: 36px;
     }
     .tittleDes{
-        top:40%;
+        top:36%;
     }
     .tittleButton{
+        top: 60%;
+    }
+    .resumeButton{
         top: 70%;
     }
     .scrollDown{
