@@ -136,16 +136,17 @@
     }
 }
 
-@media only screen and (max-width:335px){
+@media only screen and (max-width:320px){
     .tittle{
-        top: 16%;
-        font-size: 36px;
+        top: 10%;
+        font-size: 30px;
     }
     .tittleDes{
-        top:36%;
+        top:34%;
+        font-size: 16px;
     }
     .tittleButton{
-        top: 60%;
+        top: 58%;
     }
     .resumeButton{
         top: 70%;
