@@ -14,7 +14,7 @@ export default function Projects() {
         image={covid}
         title="COVID-19 Live Web App"
         github="https://github.com/harsimran-preet/covid19webapp"
-        visit="https://github.com/harsimran-preet/covid19webapp"
+        visit="https://harsimran-preet.github.io/covid19webapp/"
         details="Created using Python, Django, and HTML.
         Targeted to provide the right information about the global fight against the COVID-19
         virus.
