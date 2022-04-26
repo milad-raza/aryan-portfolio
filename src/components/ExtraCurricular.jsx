@@ -6,12 +6,17 @@ import { SiGooglescholar } from "react-icons/si";
 import pic from '../assets/images/pic.png'
 
 export default function ExtraCurricular() {
+  const getAge = (birthday) => {
+    const millis = Date.now() - Date.parse(birthday);
+    return new Date(millis).getFullYear() - 1970;
+  }
+
   return (
     <div className={styles.extraCurricular} id="extraCurricular">
       <h1 className={styles.heading}>Extra Curricular</h1>
       <div className={styles.extraCurricularSection}>
         <p className={styles.tittleDes}>
-          Harsimran is a 19-year-old Techie from India with a passion for
+          Harsimran is a {getAge("12-08-2001")}-year-old Techie from India with a passion for
           technology and a desire to share that passion with the world. He runs
           a YouTube channel "Aryan Sadyora" by himself and is getting a high
           appreciation by his viewers. He hopes to continue creating content and

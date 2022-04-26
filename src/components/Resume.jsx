@@ -66,7 +66,7 @@ export default function Resume() {
             California State University, San Luis Obispo
             </h2>
             <p className={styles.desc} style={{fontWeight: "bold"}}>
-            ● Expected to graduate in June 2023 with a BS Computer Science degree
+            ● Expected to graduate in March 2023 with a BS Computer Science degree
             </p>  
           </div>
         </div>

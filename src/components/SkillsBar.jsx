@@ -21,7 +21,14 @@ const BorderLinearProgress = withStyles((theme) => ({
 const useStyles = makeStyles({
   root: {
     margin: 20,
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    flexDirection: "column"
   },
+  image:{
+    objectFit: "contain",
+  }
 });
 
 export default function SkillsBar(props) {
@@ -29,8 +36,8 @@ export default function SkillsBar(props) {
 
   return (
     <div className={classes.root}>
-      <img src={props.image} width="36px" height="36px" alt={props.name}/>
-      <h2 style={{fontFamily: "OpenSans"}}>{props.name}</h2>
+      <img src={props.image} className={classes.image} width="36px" height="36px" alt={props.name}/>
+      <h2 style={{fontFamily: "OpenSans"}} className="mt-2">{props.name}</h2>
       <div
         style={{
           display: "flex",
@@ -39,12 +46,12 @@ export default function SkillsBar(props) {
           margin: 10,
         }}
       >
-        <h4 style={{ color: "#b8b8c7", width: 65, fontSize: 20 }}>{props.percent}%</h4>
+        {/* <h4 style={{ color: "#b8b8c7", width: 65, fontSize: 20 }}>{props.percent}%</h4>
         <BorderLinearProgress
           variant="determinate"
           value={props.percent}
           style={{ marginLeft: 20 }}
-        />
+        /> */}
       </div>
     </div>
   );

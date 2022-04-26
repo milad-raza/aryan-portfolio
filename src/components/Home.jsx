@@ -31,7 +31,7 @@ export default function Home() {
       <div>
         <a
          rel="noreferrer"
-          href="https://drive.google.com/file/d/1jHNrzm47IbYCULjrR7GzgbsEIzULPwG9/view?usp=sharing"
+          href="https://drive.google.com/file/d/1wtjICue7Cc-NryuoKSUVj_3VZxIsGy_U/view?usp=sharing"
           target="_blank"
           className={styles.resumeButton}
         >

@@ -3,6 +3,11 @@ import styles from "./About.module.css";
 import me from "../assets/images/me.jpeg";
 
 export default function About() {
+  const getAge = (birthday) => {
+    const millis = Date.now() - Date.parse(birthday);
+    return new Date(millis).getFullYear() - 1970;
+  }
+
   return (
     <div className={styles.about} id="about">
       <h1 className={styles.heading}>About Me</h1>
@@ -35,7 +40,7 @@ export default function About() {
             </div>
             <div>
               <p className={styles.allData}>Harsimran Preet Singh</p>
-              <p className={styles.allData}>19 Years</p>
+              <p className={styles.allData}>{getAge("12-08-2001")} Years</p>
               <p className={styles.allData}>Indian</p>
               <p className={styles.allData}>English, Hindi, and Punjabi</p>
               <p className={styles.allData}>Computer Science</p>
